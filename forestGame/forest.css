@@ -1,0 +1,66 @@
+
+*{
+	color:#ffffff;
+	margin:0;
+	padding: 0;
+}
+body{
+	background: #000000;
+}
+input {
+	color:#000000;
+}
+#game{
+	margin:0 auto;
+	width:600px;
+	text-align: center;
+}
+#itemDiv{
+	position:absolute;
+	z-index:9999999;
+}
+#item{
+	position: absolute;
+	top:150px;
+	left:150px;
+	z-index:999;
+}
+#directions{
+	width: 256px;
+	height: 256px;
+	margin:50px auto;
+	padding: 0;
+}
+#directions img{
+	background:red;
+	margin: 0;
+	padding: 0;
+	width: 64px;
+	height: 64px;
+	cursor: pointer;
+}
+#north{
+	position:relative;
+	top:0;
+	left:100px;
+}
+#south{
+	position:relative;
+	bottom:0px;
+	left:100px;
+}
+#west{
+	position: relative;
+	top:34px;
+}
+#east{
+	position: relative;
+	top:34px;
+}
+#place{
+	z-index: -1;
+}
+#item:hover{
+	/*box-shadow: 0px 0px 20px #fff;*/
+	background: rgba(255,255,255, 0.75); 
+}
